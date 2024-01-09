@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Projek Akhir</string>
+    <string name="lgn">Login</string>
+    <string name="sgn">SignUpr</string>
+    <string name="sbmt">Submit</string>
+    <string name="cncl">Cancel</string>
+    <string name="mnroom">Room4</string>
+    <string name="mdroom">Room8</string>
+    <string name="lgroom">Room30</string>
+    <string name="lc">DenganLC</string>
 </resources>
