@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Projek Akhir</string>
     <string name="lgn">Login</string>
-    <string name="sgn">SignUpr</string>
+    <string name="lgot">LogOut</string>
     <string name="sbmt">Submit</string>
     <string name="cncl">Cancel</string>
     <string name="mnroom">Room4</string>
