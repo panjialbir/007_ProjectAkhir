@@ -63,7 +63,7 @@ fun KaraokeHostNavigasi(
                 navigateToOrderRoom = { navController.navigate(DestinasiOrderRoom.route) }
             )
         }
-        composable(DestinasiAddLC.route){
+        composable(DestinasiNavigasi.route){
             AddLCEntryScreen(navigateBack = { navController.popBackStack() })
         }
         composable(DestinasiOrderRoom.route){
