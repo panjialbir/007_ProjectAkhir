@@ -4,7 +4,7 @@ import android.content.Context
 import com.example.projekakhir.data.DatabaseOrder
 
 interface ContainerApp{
-    val offlineRepositoryOrder: OfflineRepositoryOrder
+
     val repositoryOrder : RepositoryOrder
 }
 
