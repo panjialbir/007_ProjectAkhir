@@ -25,7 +25,9 @@ class HomeViewModel(
     data class HomeUiState(
         val listOrder: List<List<OrderRoom>> = listOf(),
         val listLC: List<List<LC>> = listOf()
-    )
+    ) {
+
+    }
 
     private val _homeUiState = MutableStateFlow(HomeUiState())
     val homeUiState: StateFlow<HomeUiState> = _homeUiState.asStateFlow()
