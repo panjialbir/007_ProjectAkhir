@@ -10,7 +10,6 @@ object PenyediaViewModel {
         initializer {
             HomeViewModel(aplikasiOrderRoom().container.offlineRepositoryOrder)
         }
-
         initializer {
             OrderRoomViewModel(aplikasiOrderRoom().container.offlineRepositoryOrder)
         }
