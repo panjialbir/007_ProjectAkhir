@@ -14,4 +14,3 @@ class AplikasiKaraoke: Application() {
             container = ContainerDataApp(this)
         }
     }
-}
