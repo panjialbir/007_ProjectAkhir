@@ -18,6 +18,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.projekakhir.R
+import com.example.projekakhir.ui.theme.halaman.HomeScreen
 
 @Composable
 fun KaraokeApp(navController: NavHostController = rememberNavController()){
@@ -57,7 +58,7 @@ fun KaraokeHostNavigasi(
     NavHost(navController = navController, startDestination = DestinasiNavigasi.route, modifier = modifier)
     {
         composable(DestinasiNavigasi.route){
-            KaraokeHomeScreen(
+            HomeScreen(
                 navigateToAddLC = { navController.navigate(DestinasiAddLC.route) },
                 navigateToOrderRoom = { navController.navigate(DestinasiOrderRoom.route) }
             )
